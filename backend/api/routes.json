@@ -1,0 +1,32 @@
+[
+  {
+    "controller": "item",
+    "action": "create",
+    "verb": "post",
+    "url": "/items"
+  },
+  {
+    "controller": "item",
+    "action": "getAll",
+    "verb": "get",
+    "url": "/items"
+  },
+  {
+    "controller": "item",
+    "action": "get",
+    "verb": "get",
+    "url": "/items/:id"
+  },
+  {
+    "controller": "item",
+    "action": "update",
+    "verb": "put",
+    "url": "/items/:id"
+  },
+  {
+    "controller": "item",
+    "action": "delete",
+    "verb": "delete",
+    "url": "/items/:id"
+  }
+]
